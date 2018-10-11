@@ -1,0 +1,65 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap;
+    font-family: sans-serif;
+}
+
+.ud_box {
+    width: 50%;
+}
+
+#ud_output {
+    background: #f4f4f4;
+}
+
+#ud_output ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#ud_output ud li {
+    list-style: none;
+    border-bottom: 3px solid #fff;
+    padding: 2%;
+    margin: 0;
+    width: 96%;
+    color: #777;
+}
+
+#ud_output ul li span {
+    float: right;
+    font-size: 10px;
+    color: #000;
+    display: block;
+    margin: 6px 0 0 0;
+}
+
+#ud_output ul li span:hover {
+    color: #f60;
+}
+
+form {
+    width: 350px;
+    margin: 25% 0 0 50%;
+    transform: translate(-50%,-50%);
+}
+
+form input {
+    float: left;
+    width: 90%;
+    padding: 5%;
+    margin: 0 0 10px 0;
+    border: none;
+    background: #f4f4f4;
+}
+
+#send {
+    width: 100%;
+    color: #fff;
+    background: #212328;
+}
